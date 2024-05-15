@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         Sym {
-            bindings = <&mo 2>;
+            bindings = <&tog 2>;
             key-positions = <36 27>;
             timeout-ms = <0>;
             layers = <0>;
@@ -31,7 +31,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y      &kp U          &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LA(BSPC)
 &kp LCTRL  &kp A  &kp S  &kp D  &kp F             &kp G        &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V             &kp B        &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &mo 1  &kp LEFT_COMMAND  &kp ENTER    &kp SPACE  &kp BACKSPACE  &kp RALT
@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1        &kp N2        &kp N3        &kp N4            &kp N5          &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &trans
-&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &kp HOME   &trans    &kp UP    &trans     &trans  &trans
-&kp LSHFT  &bt BT_CLR    &trans        &trans        &trans            &trans          &kp END    &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-                                       &trans        &kp LEFT_COMMAND  &kp ENTER       &kp SPACE  &trans    &kp RALT
+&kp TAB    &kp N1        &kp N2         &kp N3             &kp N4            &kp N5          &kp N6     &kp N7         &kp N8    &kp N9     &kp N0         &kp LA(BACKSPACE)
+&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4    &kp HOME   &trans         &kp UP    &trans     &kp PAGE_UP    &trans
+&kp LSHFT  &bt BT_CLR    &kp LC(MINUS)  &kp LS(LC(MINUS))  &trans            &trans          &kp END    &kp LEFT       &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans
+                                        &trans             &kp LEFT_COMMAND  &kp ENTER       &kp SPACE  &kp BACKSPACE  &kp RALT
             >;
         };
 
@@ -61,10 +61,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans            &trans       &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH      &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans            &trans       &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE      &kp TILDE
-                             &trans    &kp LEFT_COMMAND  &kp ENTER    &kp SPACE  &trans     &kp RALT
+&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp LA(BSPC)
+&kp LCTRL  &trans    &trans  &trans    &trans            &trans       &kp MINUS  &kp EQUAL      &kp LBKT              &kp RBKT               &kp BSLH      &kp GRAVE
+&kp LSHFT  &trans    &trans  &trans    &trans            &trans       &kp UNDER  &kp PLUS       &kp LBRC              &kp RBRC               &kp PIPE      &kp TILDE
+                             &trans    &kp LEFT_COMMAND  &kp ENTER    &kp SPACE  &kp BACKSPACE  &kp RALT
             >;
         };
     };
