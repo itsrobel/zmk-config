@@ -77,10 +77,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4         &trans      &trans         &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &bl BL_ON     &trans        &kp C_BRIGHTNESS_INC  &kp K_MUTE             &kp C_VOLUME_UP      &bl BL_INC  &bl BL_CYCLE   &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &bl BL_OFF    &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_AUTO  &kp C_VOLUME_DOWN    &bl BL_DEC  &bl BL_TOG     &trans  &trans  &trans  &trans
-                                              &kp LEFT_WIN          &trans                 &kp ENTER            &kp SPACE   &kp RIGHT_ALT  &trans
+&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3     &bt BT_SEL 4         &trans      &trans         &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &bl BL_ON     &trans        &kp C_BRIGHTNESS_INC  &kp K_MUTE       &kp C_VOLUME_UP      &bl BL_INC  &bl BL_CYCLE   &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &bl BL_OFF    &trans        &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &kp C_VOLUME_DOWN    &bl BL_DEC  &bl BL_TOG     &trans  &trans  &trans  &trans
+                                              &kp LEFT_WIN          &trans           &kp ENTER            &kp SPACE   &kp RIGHT_ALT  &trans
             >;
         };
     };
