@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &kp N1     &kp N2          &kp N3           &kp N4            &kp N5           &kp N6     &kp N7            &kp N8             &kp N9           &kp N0  &kp BACKSPACE
-&kp LEFT_SHIFT    &kp GRAVE  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW      &kp PAGE_UP      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PRINTSCREEN  &trans  &trans
-&kp LEFT_CONTROL  &trans     &kp HOME        &kp END          &kp DOWN_ARROW    &kp PAGE_DOWN    &kp MINUS  &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH    &trans  &mo 2
-                                             &trans           &kp LG(LEFT_WIN)  &kp ENTER        &kp SPACE  &trans            &kp RIGHT_ALT
+&kp TAB           &kp N1     &kp N2          &kp N3           &kp N4            &kp N5       &kp N6         &kp N7            &kp N8             &kp N9           &kp N0  &kp BACKSPACE
+&kp LEFT_SHIFT    &kp GRAVE  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW      &kp EQUAL    &kp PAGE_UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PRINTSCREEN  &trans  &trans
+&kp LEFT_CONTROL  &trans     &kp HOME        &kp END          &kp DOWN_ARROW    &kp MINUS    &kp PAGE_DOWN  &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH    &trans  &mo 2
+                                             &trans           &kp LG(LEFT_WIN)  &kp ENTER    &kp SPACE      &trans            &kp RIGHT_ALT
             >;
         };
 
@@ -68,10 +68,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3     &bt BT_SEL 4         &trans      &trans         &trans  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR_ALL
-&kp LEFT_SHIFT    &bl BL_ON     &trans        &kp C_BRIGHTNESS_INC  &kp K_MUTE       &kp C_VOLUME_UP      &bl BL_INC  &bl BL_CYCLE   &trans  &trans      &trans      &trans
-&kp LEFT_CONTROL  &bl BL_OFF    &trans        &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &kp C_VOLUME_DOWN    &bl BL_DEC  &bl BL_TOG     &trans  &trans      &trans      &trans
-                                              &kp LEFT_WIN          &trans           &kp ENTER            &kp SPACE   &kp RIGHT_ALT  &trans
+&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3     &bt BT_SEL 4         &trans      &trans        &trans  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR_ALL
+&kp LEFT_SHIFT    &bl BL_ON     &trans        &kp C_BRIGHTNESS_INC  &kp K_MUTE       &kp C_VOLUME_UP      &bl BL_INC  &bl BL_CYCLE  &trans  &trans      &trans      &trans
+&kp LEFT_CONTROL  &bl BL_OFF    &trans        &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &kp C_VOLUME_DOWN    &bl BL_DEC  &bl BL_TOG    &trans  &trans      &trans      &trans
+                                              &trans                &trans           &kp ENTER            &kp SPACE   &trans        &trans
             >;
         };
     };
